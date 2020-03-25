@@ -32,4 +32,4 @@ jobs:
         app-name: 'app99'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_30eba6eaece5496b91a2483eacea986b }}
-        package: .
+        package: ftps://waws-prod-dm1-165.ftp.azurewebsites.windows.net/site/wwwroot
